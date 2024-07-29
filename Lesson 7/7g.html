@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Twitter Textbox Practice</title>
+    <link rel="stylesheet" href="styles/text.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      p {
+        font-family: Roboto;
+    }
+    
+    .thumbnail {
+        border-radius: 40px;
+        height: 80px;
+        width: 80px;
+        object-fit: cover;
+        object-position: center;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    
+    .search-box {
+        border: none;
+        font-size: 25px;
+        margin-right: 10px;
+        width: 350px;
+        vertical-align: middle;
+    }
+    
+    button {
+        background-color: rgb(68, 131, 233);
+        border: none;
+        border-radius: 20px;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 8px 20px;
+        vertical-align: middle;
+      }
+    </style>
+  </head>
+  <body>
+    <p>
+      <img class="thumbnail" src="thumbnails/cat.jpg" alt="Cat image" />
+      <input class="search-box" type="text" placeholder="What's happening?" />
+      <button>Tweet</button>
+    </p>
+  </body>
+</html>
