@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pets Practice</title>
+    <style>
+      .tile {
+        border: none;
+        box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.15);
+        display: inline-block;
+        font-family: Arial;
+        height: 270px;
+        margin-right: 20px;
+        padding: 0;
+        width: 170px;
+        vertical-align: top;
+      }
+
+      .profile-div {
+        height: 60%;
+      }
+
+      .profile-picture {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+        vertical-align: middle;
+      }
+
+      .profile-text {
+        font-weight: 900;
+        height: 10%;
+        margin-top: 8px;
+        margin-bottom: 0;
+        margin-left: 5px;
+      }
+
+      .profile-stats {
+        height: 10%;
+      }
+
+      .thumbnail {
+        display: inline-block;
+        margin-left: 8px;
+        margin-right: 4px;
+        width: 10%;
+        vertical-align: top;
+    }
+    
+    .thumbnail-image {
+        border-radius: 10px;
+        height: 20px;
+        width: 20px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .friend-score {
+        color: rgb(96, 96, 96);
+        display: inline-block;
+        font-size: 14px;
+        width: 80%;
+        vertical-align: top;
+      }
+
+      .button-div {
+        height: 20%;
+        margin-top: 0;
+      }
+
+      button {
+        background-color: rgb(68, 131, 233);
+        border: none;
+        border-radius: 4px;
+        color: white;
+        font-size: 14px;
+        margin-left: 8px;
+        padding: 10px 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tile">
+      <div class="profile-div">
+        <img class="profile-picture" src="thumbnails/cat.jpg" alt="Cat image" />
+      </div>
+      <p class="profile-text">Oliver</p>
+      <div class="profile-stats">
+        <div class="thumbnail">
+            <img class="thumbnail-image" src="thumbnails/dog2.jpg" alt="little dog thumbnail">
+        </div>
+        <div class="friend-score">2 mutual friends</div>
+      </div>
+      <div class="button-div">
+        <button>Add Friend</button>
+      </div>
+    </div>
+
+    <div class="tile">
+      <div class="profile-div">
+        <img class="profile-picture" src="thumbnails/cat2.jpg" alt="Cat image" />
+      </div>
+      <p class="profile-text">Mimi</p>
+      <div class="profile-stats">
+        <div class="thumbnail">
+            <img class="thumbnail-image" src="thumbnails/dog2.jpg" alt="little dog thumbnail">
+        </div>
+        <div class="friend-score">3 mutual friends</div>
+      </div>
+      <div class="button-div">
+        <button>Add Friend</button>
+      </div>
+    </div>
+
+    <div class="tile">
+      <div class="profile-div">
+        <img class="profile-picture" src="thumbnails/dog.jpg" alt="Cat image" />
+      </div>
+      <p class="profile-text">Rex</p>
+      <div class="profile-stats">
+        <div class="thumbnail">
+            <img class="thumbnail-image" src="thumbnails/dog2.jpg" alt="little dog thumbnail">
+        </div>
+        <div class="friend-score">4 mutual friends</div>
+      </div>
+      <div class="button-div">
+        <button>Add Friend</button>
+      </div>
+    </div>
+
+  </body>
+</html>
