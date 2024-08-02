@@ -1,0 +1,74 @@
+body {
+  font-family: Roboto, Arial;
+}
+
+.text {
+  color: gray;
+  font-size: 18px;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  border: none;
+  border-radius: 4px;
+  box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 15px;
+}
+
+.up {
+  margin-bottom: 10px;
+  padding-top: 5px;
+  vertical-align: middle;
+}
+
+.down {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.image-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.promotions {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 4px;
+}
+
+.middle {
+  padding-bottom: 4px;
+}
+
+.headline {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.middle > p {
+  font-size: 18px;
+}
+
+.bottom > p {
+  font-size: 20px;
+}
+
+.pet-image {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>2-Element Flexbox</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .element1 {
+        background-color: lightpink;
+        width: 100px;
+      }
+      .element2 {
+        background-color: lightblue;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+        width: 200px;
+      }
+
+      .row2 {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      p {
+        background-color: black;
+        color: white;
+        margin: 0;
+      }
+    </style>
+  </header>
+  <body>
+    <div class="container">
+      <div class="element1"></div>
+      <div class="element2">
+        <div class="row1">row1</div>
+        <div class="row2">
+          <p>row2</p>
+          <p>row2</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
